@@ -1,0 +1,254 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+/*--- HEADER ------------- */
+#--menuBar
+{
+max-width: 100%;
+
+height: 40px;
+color: rgb(255, 244, 231);
+background-color: rgb(49, 36, 3);
+
+align-items: center;
+justify-content: center;
+
+
+}
+
+#--itensMenu
+{
+    display: flex;
+  
+
+    align-items: center;
+    justify-content: center; 
+    gap:100px       
+    
+}
+
+#--itensMenu ul
+{
+    display: flex;
+    
+    list-style: none;
+   
+    align-items: center;
+    justify-content: center;
+    gap:20%;
+
+
+}
+/*--- MAIN------------------------ */
+
+#--pageGeneral-DIV
+{
+
+    margin: 0% auto;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color:aliceblue;
+}
+
+#--pageGeneral-DIV h1
+{
+    margin: 20px;
+    padding: 5px 100px;
+
+    border-bottom: 5px solid  rgb(255, 61, 103);
+}
+
+
+
+picture
+{
+    display: flex;
+    justify-content: center;
+}
+
+#--bannerInicial-DIV img
+{
+    width: 80%;
+    height: 80%px;   
+}
+#--bannerInicial-DIV h2
+{
+    
+   padding: 20px;
+
+    
+}
+
+#--bannerInicial-DIV p
+{
+    width: 85%;
+    text-align: center;
+    padding: 20px;
+    
+
+
+}
+
+#--pTexto
+{
+    
+    width: 65%;
+    height: auto;
+    margin: 0% auto;
+    margin-top: 80px;
+
+    text-align: center;
+    
+}
+
+  /*--- PADRAO PAGINA ----------------  */
+.buttonPadrao
+{
+    
+    padding: 10px 35px;
+    border: none;
+    color: aliceblue;
+    background-color: rgb(255, 61, 103);
+    border-radius: 8px;
+    margin: 30px;
+
+    cursor: pointer;
+
+    
+}
+
+.bannerCardGeral
+{
+    width: 50%;
+    height: auto;
+    display: flex;
+
+    flex-direction: column;
+    border-radius: 10px;
+
+
+    align-items: center;
+    
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  
+}
+
+.bannerCardGeral img
+{
+    width: 70%;
+    height: auto;
+ 
+  
+}
+
+
+
+/* Conteiner Abaixo IMG */
+
+.contentSection
+{
+    
+    width: 800px;
+    margin: 0% auto;
+  
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  
+}
+.contentSection p
+{
+    max-width: 50%;
+    height: auto;
+
+    margin-top: 50px;
+    text-align: center;
+}
+
+#itensCards 
+{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+
+   
+    height: auto;
+
+}
+
+.cardsSection
+{
+   background-color: rgb(50, 102, 148);
+   display: flex;
+   flex-direction: column;
+  
+   
+}
+
+#--Card h1
+{
+    width: 100%;
+    border: none;
+}
+
+footer
+{
+    height: 50px;
+    display: flex;
+    align-items: end;
+    background-color:rgb(49, 36, 3);
+    color: aliceblue;
+
+    justify-content: center;
+    align-items: center;
+   
+    margin-top: 90px;
+}
+
+@media screen and (max-width : 760px) {
+  #--pageGeneral-DIV
+  {
+      width: 100%;
+      height: auto;
+  }  
+
+  #--bannerInicial-DIV
+  {
+      width: 100%;
+  }
+
+  #itensCards
+  {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      align-items: center;
+  }
+
+
+  .menu
+  {
+      display: none;
+  }
+
+  .contentSection
+  {
+      width: 100%;
+  }
+
+}
