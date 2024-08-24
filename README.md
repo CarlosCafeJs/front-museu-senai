@@ -25,4 +25,4 @@ O projeto é composto pelos seguintes arquivos:
 
 1. Clone o repositório para o seu ambiente local:
    ```bash
-   git clone https://github.com/seu-usuario/museu-virtual.git
+   git clone https://github.com/seu-usuario/museu-virtual.git](https://github.com/CarlosCafeJs/projetoMUSEU-SENAI.git
